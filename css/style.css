@@ -7,7 +7,7 @@ font-family: sans-serif;
 Header {
 
     background-color: #000000
-    color: greenyellow
+    color greenyellow
 }
 h1{
 font-size: 2rem;
