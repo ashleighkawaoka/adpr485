@@ -51,7 +51,7 @@ p, ul, ol {
 }
 
 /****** Desktop Layout ******/
-@media screen and (min width: 40rem) {
+@media screen and (min-width: 40rem) {
     .site-id  {
             grid-column: 1  /  span 6;
             background-color: #033f5f;
