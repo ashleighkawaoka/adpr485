@@ -1,4 +1,4 @@
-body{
+body {
 margin: 0 10%;
 font-family: sans-serif;
 }
@@ -10,19 +10,19 @@ Header {
     padding: 2rem;
 }
 
-h1{
+h1 {
 font-size: 2rem;
 }
 
-h2{
+h2 {
 font-size: 1.5rem;
 }
 
-h3{
+h3 {
 font-size: 1.25rem;
 }
 
-p{
+p {
     color: #000000;
     text-align: left;
 }
