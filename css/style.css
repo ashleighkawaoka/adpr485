@@ -5,10 +5,11 @@ font-family: sans-serif;
 
 
 Header {
-
-    background-color: #000000
-    color greenyellow
+    background-color: #9abcf8;
+    color: white;
+    padding: 2rem;
 }
+
 h1{
 font-size: 2rem;
 }
