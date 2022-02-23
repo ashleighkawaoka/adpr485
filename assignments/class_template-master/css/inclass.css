@@ -37,7 +37,7 @@ p, ul, ol {
     color: var(--neutral-grey);
 }
 
-/******* Layout *******/
+/****** Layout ******/
 .container {
     background-color: red;
     width: min(95%, 75rem);
@@ -50,7 +50,7 @@ p, ul, ol {
     grid-column: span 12;
 }
 
-/***** Desktop Layout *******/
+/****** Desktop Layout ******/
 .site-id  {
         grid-column: 1  /  span 6;
         background-color: #033f5f;
