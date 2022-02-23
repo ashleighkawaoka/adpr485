@@ -5,24 +5,29 @@ font-family: sans-serif;
 
 
 Header {
-    background-color: #000000
+    background-color: #000000;
     color: white;
     padding: 2rem;
+    font-family: Helvetica;
 }
 
 h1 {
+font-family: Helvetica;
 font-size: 2rem;
 }
 
 h2 {
+ font-family: Helvetica;
 font-size: 1.5rem;
 }
 
 h3 {
+font-family: Helvetica;
 font-size: 1.25rem;
 }
 
 p {
+    font-family: Helvetica;
     color: #000000;
     text-align: left;
 }
