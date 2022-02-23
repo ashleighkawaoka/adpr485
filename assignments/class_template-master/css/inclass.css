@@ -7,7 +7,7 @@
 
 }
 
-*{
+* {
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -45,13 +45,12 @@ p, ul, ol {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(12, 1fr);
-
 }
-.container> * {
-    grid-column: 12;
+.container > * {
+    grid-column: span 12;
 }
 
-/*  Desktop Layout */
+/***** Desktop Layout *******/
 .site-id  {
         grid-column: 1  /  span 6;
         background-color: #033f5f;
