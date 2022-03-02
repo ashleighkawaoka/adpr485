@@ -1,11 +1,10 @@
 body {
 margin: 0 10%;
 font-family: sans-serif;
-background-image: url("../images/windows_hs.jpeg");
+background-image: url("../images/skybackground.jpg");
 }
 .container {
-    background-color: white;
-    opacity: 0.3;
+    background-color: white
 }
 
 
