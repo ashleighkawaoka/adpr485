@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 body {
 margin: 0 10%;
 font-family: sans-serif;
@@ -5,10 +10,6 @@ background-image: url("../images/skybackground.jpg");
 background-size: 2400px;
 width: 1920px;
 height: 1080px;
-}
-
-.container {
-    background-color: white
 }
 
 
@@ -39,4 +40,13 @@ p {
 .circle {
 border-radius: 50%;
 border: 5px;
+}
+
+
+/****** Layout ******/
+.container {
+    background-color: white;
+    display: grid;
+    gap: 1.5 rem;
+    grid-template-columns: repeat(12, 1fr);
 }
