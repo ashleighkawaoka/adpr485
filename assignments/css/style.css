@@ -49,8 +49,10 @@ border: 5px;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(12 , 1fr);
+    margin: 0 auto;
+    width: min(95%, 75rem);
 }
-.container > *{
+.container > * {
     grid-column: span 12;
 }
 
