@@ -2,6 +2,9 @@ body {
 margin: 0 10%;
 font-family: sans-serif;
 background-image: url("../images/skybackground.jpg");
+background-size: 150px;
+width: 300 px;
+height: 300 px;
 }
 .container {
     background-color: white
