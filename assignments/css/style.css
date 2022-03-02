@@ -1,7 +1,7 @@
 body {
 margin: 0 10%;
 font-family: sans-serif;
-background-image: url(".../images/sky_background");
+background-image: url("../images/sky_background.jpg");
 }
 .container {
     background-color: white;
