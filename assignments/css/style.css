@@ -47,6 +47,9 @@ border: 5px;
 .container {
     background-color: white;
     display: grid;
-    gap: 1.5 rem;
-    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+    grid-template-columns: repeat(12 , 1fr);
+}
+.container > *{
+    grid-column: span 12;
 }
