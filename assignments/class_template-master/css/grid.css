@@ -2,7 +2,7 @@
     --primary-color: white;
     --secondary-color: #007CBC;
     --neutral-grey: #747e83;
-    --nuetral-light: red;
+    --nuetral-light: 
     --highlight-color: #f5ba36;
 
 }
@@ -53,19 +53,20 @@ img {
     grid-column: span 12;
 }
 
+.green {background-color: green;}
+.blue {background-color: blue;}
+.yellow {background-color: yellow;}
+.purple {background-color: purple;}
+.orange {background-color: orange;}
+.red {background-color: red;}
+
 /****** Desktop Layout ******/
 @media screen and (min-width: 40rem) {
-    .nav{
-            grid-column:  span 4;
-            background-color: #033f5f;
-    }
-    .section{
-            grid-column: span 4;
-            background-color: black
-    }
-
-    .main{
-        grid-column:  1  /  span 12 ;
-        background-color: purple;
-    }
+    .nav {grid-column:  1  /  span 4;}
+    .logo {grid-column:  5  /  span 2;}
+    .language {grid-column:  5  /  span 2;}
+    .main {grid-column:  1  /  span 12;}
+    .social {grid-column:  1  /  span 12;}
+    .search {grid-column:  1  /  span 12;}
+    .copyright { grid-column:  1  /  span 12;}
 }
