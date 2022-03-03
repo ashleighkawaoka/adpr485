@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #033f5f;
+    --primary-color: white;
     --secondary-color: #007CBC;
     --neutral-grey: #747e83;
     --nuetral-light: #ffffff;
@@ -55,16 +55,16 @@ img {
 
 /****** Desktop Layout ******/
 @media screen and (min-width: 40rem) {
-    .nav  {
+    .nav{
             grid-column:  span 4;
             background-color: #033f5f;
     }
-    .section  {
+    .section{
             grid-column: span 4;
-            background-color: #035f22;
+            background-color: black
     }
 
-    .main {
+    .main{
         grid-column:  1  /  span 12 ;
         background-color: purple;
     }
