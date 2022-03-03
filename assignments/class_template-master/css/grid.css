@@ -1,8 +1,8 @@
 :root {
     --primary-color: white;
     --secondary-color: #007CBC;
-    --neutral-grey: #747e83;
-    --nuetral-light: #f0f0f0;
+    --neutral-grey: white;
+    --nuetral-light: white;
     --highlight-color: #f5ba36;
 
 }
@@ -64,9 +64,9 @@ img {
 @media screen and (min-width: 40rem) {
     .nav {grid-column:  1  /  span 4;}
     .logo {grid-column:  5  /  span 2;}
-    .language {grid-column:  5  /  span 2;}
+    .language {grid-column:  9  /  span 4;}
     .main {grid-column:  1  /  span 12;}
-    .social {grid-column:  1  /  span 12;}
-    .search {grid-column:  1  /  span 12;}
-    .copyright { grid-column:  1  /  span 12;}
+    .social {grid-column:  1  /  span 4;}
+    .search {grid-column:  5  /  span 4;}
+    .copyright { grid-column:  9  /  span 4;}
 }
