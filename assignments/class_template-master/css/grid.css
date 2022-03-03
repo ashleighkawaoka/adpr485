@@ -56,11 +56,11 @@ img {
 /****** Desktop Layout ******/
 @media screen and (min-width: 40rem) {
     .nav  {
-            grid-column: 1  /  span 4;
+            grid-column:  span 4;
             background-color: #033f5f;
     }
     .section  {
-            grid-column: 1  /  span 4;
+            grid-column: span 4;
             background-color: #035f22;
     }
 
