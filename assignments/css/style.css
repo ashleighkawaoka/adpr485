@@ -12,7 +12,7 @@ height: 1080px;
 }
 
 Header {
-    background-color: #000000;
+    background-color: #005937;
     color: white;
     padding: 2rem;
 }
@@ -24,10 +24,12 @@ font-family: Helvetica;
 
 h2 {
 font-size: 1.5rem;
+color: #005937
 }
 
 h3 {
 font-size: 1.25rem;
+color: #005937;
 }
 
 p {
@@ -38,6 +40,16 @@ p {
 .circle {
 border-radius: 50%;
 border: 5px;
+}
+
+a:link, a:visited{
+    color: #b1272d;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2e3188;
+    text-decoration: underline;
 }
 
 
@@ -62,4 +74,10 @@ border: 5px;
     .col-span-4 {
         grid-column: span 4;
     }
+}
+
+/****** Components ******/
+.button {
+    color: white;
+    background-color: #2e3188;
 }
