@@ -114,16 +114,16 @@ nav a:hover{
 /****** Components ******/
 .button:link, .button:visited {
     color: white;
-    background-color: #b1272d;
+    background-color: #b1272d ;
     text-align: center;
     text-decoration: none;
     padding: 1rem 1.75rem;
     border-radius: 2rem;
-    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+    box-shadow: 0 .25rem .5rem rgb(130, 116, 210);
     display: inline-block;
     margin: 0, .25rem .25rem 0;
     transition: background-color .5s ease;
 }
 .button:hover{
-    background-color: #88d5f3;
+    background-color: #8274d2;
 }
