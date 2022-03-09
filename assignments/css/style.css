@@ -5,15 +5,15 @@
 
 body {
 margin: 0px 10%;
-background-image: url("../images/skybackground.jpg");
+background-image: url("../images/windowsdesktop.png");
 background-size: 2400px;
 width: 1920px;
 height: 1080px;
 }
 
 Header {
-    background-color: #005937;
-    color: white;
+    background-color: #e0df59;
+    color: black;
     padding: 2rem;
 }
 
@@ -24,16 +24,16 @@ font-family: Helvetica;
 
 h2 {
 font-size: 1.5rem;
-color: #005937
+color: #2e3188;
 }
 
 h3 {
 font-size: 1.25rem;
-color: #005937;
+color: #2e3188;
 }
 
 p {
-    color: #000000;
+    color:  black;
     text-align: left;
 }
 
@@ -79,7 +79,7 @@ a:hover{
 /****** Components ******/
 .button:link, .button:visited {
     color: white;
-    background-color: #2e3188;
+    background-color: #b1272d;
     text-align: center;
     text-decoration: none;
     padding: 1rem 1.75rem;
