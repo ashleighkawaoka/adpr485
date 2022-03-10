@@ -42,7 +42,7 @@ img {
 
 /****** Layout ******/
 .container {
-    background-color: red;
+    background-color: white;
     width: min(95%, 75rem);
     margin: 0 auto;
     display: grid;
@@ -55,45 +55,31 @@ img {
 
 .green {background-color: green;}
 .blue {background-color: blue;}
-.yellow {background-color: yellow;}
-.purple {background-color: purple;}
-.orange {background-color: orange;}
 .red {background-color: red;}
 
 /****** Desktop Layout ******/
 @media screen and (min-width: 40rem) {
-    .nav {
-        grid-column:  1  /  span 4;
-        text-align: center;
+    .col-span-1 {
+        grid-column: span 1;
     }
 
-    .list {
-        grid-column: 1  / span 4;
-        text-align: left;
+    .col-span-2 {
+        grid-column: span 1;
     }
 
-    .logo {
-        grid-column:  5  /  span 2;
-        text-align: center;
+    .col-span-3 {
+        grid-column: span 1;
     }
-    .language {
-        grid-column:  9  /  span 4;
-        text-align: center;
+
+     .col-span-4 {
+        grid-column: span 1;
     }
-    .main {
-        grid-column:  1  /  span 12;
-         text-align: center;
+
+    .col-span-5 {
+        grid-column: span 1;
     }
-    .social {
-        grid-column:  1  /  span 4;
-        text-align: center;
-    }
-    .search {
-        grid-column:  5  /  span 4;
-        text-align: center;
-    }
-    .copyright {
-        grid-column:  9  /  span 4;
-        text-align: center;
+
+    .col-span-6 {
+        grid-column: span 1;
     }
 }
