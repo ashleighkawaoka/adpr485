@@ -4,7 +4,6 @@
     --neutral-grey: #747e83;
     --nuetral-light: #ffffff;
     --highlight-color: #f5ba36;
-
 }
 
 * {
@@ -13,7 +12,6 @@
 }
 body {
 margin: 0;
-
 }
 
 h1 {
@@ -42,7 +40,6 @@ img {
 
 /****** Layout ******/
 .container {
-    background-color: red;
     width: min(95%, 75rem);
     margin: 0 auto;
     display: grid;
@@ -54,7 +51,6 @@ img {
 }
 
 .container-lg {
-    background-color: blue;
     width: min(100%, 100rem);
     margin: 0 auto;
     display: grid;
@@ -63,6 +59,14 @@ img {
 }
 .container-lg > * {
     grid-column: span 12;
+}
+
+.primary-color {
+    background-color: var(--primary-color);
+}
+
+.highlight-color {
+    background-color: var(--highlight-color);
 }
 
 /****** Desktop Layout ******/
