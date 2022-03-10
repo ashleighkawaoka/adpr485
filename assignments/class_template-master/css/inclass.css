@@ -61,6 +61,13 @@ img {
     grid-column: span 12;
 }
 
+.portfolio {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+}
+
 .primary-color {
     background-color: var(--primary-color);
 }
@@ -68,6 +75,11 @@ img {
 .highlight-color {
     background-color: var(--highlight-color);
 }
+
+.text-center {
+    text-align: center;
+}
+
 
 /****** Desktop Layout ******/
 @media screen and (min-width: 40rem) {
@@ -85,4 +97,10 @@ img {
     .company-image {
         grid-column:  9   /  span 4 ;
     }
+
+    .portfolio {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(5, 1fr);
+}
 }
