@@ -31,6 +31,9 @@ h3 {
 font-size: 1.25rem;
 color: #2e3188;
 }
+img{
+    max-width: 100%;
+}
 
 p {
     color:  black;
@@ -64,16 +67,6 @@ a:hover{
 }
 .container > * {
     grid-column: span 12;
-}
-
-/******* Desktop Layout ********/
-@media screen and (min-width: 40rem) {
-    .col-span-8 {
-        grid-column: span 8;
-    }
-    .col-span-4 {
-        grid-column: span 4;
-    }
 }
 
 /******* Navigation Using Flexbox ******/
@@ -126,4 +119,22 @@ nav a:hover{
 }
 .button:hover{
     background-color: #8274d2;
+}
+
+.card {
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 .25rem .5rem rgb(130, 116, 210);
+}
+
+
+/******* Desktop Layout ********/
+@media screen and (min-width: 40rem) {
+    .col-span-8 {
+        grid-column: span 8;
+    }
+    .col-span-4 {
+        grid-column: span 4;
+    }
 }
