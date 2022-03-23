@@ -134,6 +134,7 @@ nav a:hover{
 }
 
 .card-text {
+    text-align: center;
     margin: 0.5rem 0 1rem 0;
     padding: 0 2rem 0.5rem
 }
@@ -145,5 +146,15 @@ nav a:hover{
     }
     .col-span-4 {
         grid-column: span 4;
+    }
+
+    .worksection {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    .card {
+        flex-basis: 27.5%;
     }
 }
