@@ -112,7 +112,7 @@ nav a:hover{
     text-decoration: none;
     padding: 1rem 1.75rem;
     border-radius: 2rem;
-    box-shadow: 0 .25rem .5rem rgb(130, 116, 210);
+    box-shadow: 0 .125rem .5rem rgb(130, 116, 210);
     display: inline-block;
     margin: 0, .25rem .25rem 0;
     transition: background-color .5s ease;
