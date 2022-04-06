@@ -1,0 +1,244 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: left;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.heroimage {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.searchbar{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.btn {
+    top: 80%;
+    left: 50%;
+    background-color: white;
+    color: #818181;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+.col-span-3 {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    float: left;
+}
+
+  .top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 46px;
+  }
+
+body {
+/****** Margin: 0 10%; ******/
+background-color: white;
+    }
+
+header {
+background-color: black;
+color: white;
+padding: 2rem;
+width: 1;
+display: grid;
+gap: .5rem;
+grid-template-columns: repeat(12, 1fr);
+margin: 0 auto;
+}
+
+h1  {
+    font-size: 1.25rem;
+    }
+h2 {
+    font-size: 1rem;
+    }
+h3 {
+        font-size: .7rem;
+    }
+p{
+    font-size: .5rem;
+}
+    
+a:link, a:visited {
+        color:#9abcf8;
+        text-decoration: none; 
+    }
+    
+a:hover {
+        color:#6e8fc7;
+        text-decoration: underline;
+    }
+
+footer {
+background-color: black;
+color: white;
+padding: 2rem;
+width: 1;
+display: grid;
+gap: 1.5rem;
+grid-template-columns: repeat(12, 1fr);
+margin: 0 auto;
+}
+
+/******* Layout ******/
+.container {
+    align-content: center;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 auto;
+    width: min(95%, 75rem);
+}
+
+.container > * {
+    grid-column: span 12;
+}
+
+/****** Nav Flexbox ******/
+nav {
+    align-content: center;
+    background-color: white;
+    color: black;
+    padding: 0 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    top: 0;
+    border-radius: 25px;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav li {
+    margin: 0 0.5rem;
+}
+
+nav a:link, nav a:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1rem;
+    display: block;
+    transition: ease-in-out 250ms;
+}
+
+nav a:hover {
+    background-color: lightgrey;
+    color: black;
+
+}
+
+/***** Components *****/
+.button:link, .button:visited {
+    color: white;
+    background-color: #9abcf8;
+    padding: 1rem 1.75rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    transition: background-color 0.25s ease;
+}
+
+.button:hover {
+    background-color: #6e8fc7;
+}
+
+.card {
+    text-align: center;
+    margin: 1rem;
+}
+
+.list {
+    flex-direction: column;
+    list-style: none;
+    flex-wrap: wrap;
+    height: 10rem;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    flex: 15 0 10%;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 0.7rem;
+  }
+
+/****** Desktop Layout ******/
+@media screen and (min-width: 40rem){
+    .col-span-4{
+        grid-column: span 4; 
+        vertical-align: top;
+        margin: 2px;
+        max-width: 100%;
+        padding: 3rem  2rem;
+    } 
+
+    .col-span-3{
+        grid-column: span 3; 
+        vertical-align: top;
+        margin: 2px;
+        max-width: 100%;
+        padding: 3rem  2rem;
+    } 
+
+    .left {
+        float: left;
+        display: block;
+    }
+    .travelcards {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    }
+    .flex-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+      }
+
+    .visualsearch {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    
+    .fontboxes {
+        max-width: 300px;
+        padding: 3rem  2rem;
+    }
+
+
