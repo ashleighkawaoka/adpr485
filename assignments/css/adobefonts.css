@@ -1,5 +1,5 @@
 * {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Obliqua Sans';
     box-sizing: border-box;
 }
 
@@ -16,8 +16,8 @@ background-color: white;
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: #818181;
     padding: 2rem;
     display: grid;
     gap: 1.5rem;
@@ -44,7 +44,7 @@ a:link, a:visited {
     }
     
 a:hover {
-        color:#bbbbbb;
+        color:#818181;
         text-decoration: underline;
     }
 
@@ -65,7 +65,7 @@ margin: 0 auto;
     gap: 1.5rem;
     grid-template-columns: repeat(12, 1fr);
     margin: 0 auto;
-    width: min(95%, 75rem);
+    width: 100%
 }
 
 .container > * {
@@ -95,7 +95,7 @@ margin: 0 auto;
     margin: 2px;
     max-width: 100%;
     padding: 3rem  2rem;
-    border: #bbbbbb;
+    border: #818181;
     border-width: 1px;
 }
 
@@ -151,7 +151,7 @@ margin: 0 auto;
 nav {
     align-content: left;
     background-color: white;
-    color: black;
+    color: #818181;
     padding: 0 2rem;
     display: flex;
     flex-flow: row wrap;
@@ -174,7 +174,7 @@ nav li {
 }
 
 nav a:link, nav a:visited {
-    color: black;
+    color: #818181;
     text-decoration: none;
     font-size: 0.5rem;
     padding: 0.5rem;
@@ -191,7 +191,7 @@ nav a:hover {
 /***** Components *****/
 .button:link, .button:visited {
     color: white;
-    background-color: #bbbbbb;
+    background-color: #818181;
     padding: 1rem 1.75rem;
     text-align: center;
     text-decoration: none;
@@ -203,7 +203,7 @@ nav a:hover {
 }
 
 .button:hover {
-    background-color: #bbbbbb;
+    background-color: #818181;
 }
 
 .list {
@@ -219,7 +219,7 @@ nav a:hover {
   .list li {
     flex: 15 0 10%;
     padding: 10px;
-    color: #ffffff;
+    color: #818181;
     font-size: 0.7rem;
   }
 
@@ -255,6 +255,14 @@ nav a:hover {
 
     .col-span-3{
         grid-column: span 3; 
+        vertical-align: top;
+        margin: 4px;
+        max-width: 100%;
+        padding: 3rem  2rem;
+    } 
+
+    .col-span-12{
+        grid-column: span 12; 
         vertical-align: top;
         margin: 4px;
         max-width: 100%;
