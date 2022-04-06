@@ -1,5 +1,5 @@
 * {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
 
@@ -9,57 +9,16 @@
     padding-left: 10px;
 }
 
-.heroimage {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.searchbar{
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-}
-
-.btn {
-    top: 80%;
-    left: 50%;
-    background-color: white;
-    color: #818181;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-
-.col-span-3 {
-    max-width: 2.5rem;
-    max-height: 2.5rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    float: left;
-}
-
-  .top-left {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    color: white;
-    font-size: 46px;
-  }
 
 body {
 /****** Margin: 0 10%; ******/
 background-color: white;
-    }
+}
 
 header {
 background-color: black;
 color: white;
 padding: 2rem;
-width: 1;
 display: grid;
 gap: .5rem;
 grid-template-columns: repeat(12, 1fr);
@@ -80,12 +39,12 @@ p{
 }
     
 a:link, a:visited {
-        color:#9abcf8;
+        color:#ffffff;
         text-decoration: none; 
     }
     
 a:hover {
-        color:#6e8fc7;
+        color:#bbbbbb;
         text-decoration: underline;
     }
 
@@ -113,6 +72,61 @@ margin: 0 auto;
 .container > * {
     grid-column: span 12;
 }
+
+.heroimage {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.searchbar{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+.visualsearchbox{
+    grid-column: span 12; 
+    vertical-align: top;
+    margin: 2px;
+    max-width: 100%;
+    padding: 3rem  2rem;
+    border: #bbbbbb;
+    border-width: 1px;
+}
+
+ .visualsearch {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+    
+.fontboxes {
+    max-width: 300px;
+    padding: 3rem  2rem;
+}
+
+.btn {
+    top: 80%;
+    left: 50%;
+    background-color: white;
+    color: #818181;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 46px;
+  }
 
 /****** Nav Flexbox ******/
 nav {
@@ -158,24 +172,19 @@ nav a:hover {
 /***** Components *****/
 .button:link, .button:visited {
     color: white;
-    background-color: #9abcf8;
+    background-color: #bbbbbb;
     padding: 1rem 1.75rem;
     text-align: center;
     text-decoration: none;
     border-radius: 0.5rem;
-    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, 0.15);
     display: inline-block;
     margin: 0 .25rem .25rem 0;
     transition: background-color 0.25s ease;
 }
 
 .button:hover {
-    background-color: #6e8fc7;
-}
-
-.card {
-    text-align: center;
-    margin: 1rem;
+    background-color: #bbbbbb;
 }
 
 .list {
@@ -217,28 +226,10 @@ nav a:hover {
         float: left;
         display: block;
     }
-    .travelcards {
-        display: flex;
-        justify-content: center;
-        flex-flow: row wrap;
-    }
 
-    }
     .flex-container {
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
       }
-
-    .visualsearch {
-        display: flex;
-        justify-content: center;
-        flex-flow: row wrap;
-    }
-    
-    .fontboxes {
-        max-width: 300px;
-        padding: 3rem  2rem;
-    }
-
-
+}
