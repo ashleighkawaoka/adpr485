@@ -16,15 +16,13 @@ background-color: white;
 }
 
 header {
-background-color: black;
-color: white;
-align-content: left;
-padding: 0 2rem;
-display: flex;
-flex-flow: row wrap;
-justify-content: left;
-top: 0;
-width: 100%;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 auto;
 }
 
 h1  {
@@ -54,7 +52,6 @@ footer {
 background-color: black;
 color: white;
 padding: 2rem;
-width: 1;
 display: grid;
 gap: 1.5rem;
 grid-template-columns: repeat(12, 1fr);
@@ -229,7 +226,7 @@ nav a:hover {
   .card {
     text-align: left;
     vertical-align: top;
-    margin: 1px;
+    margin: 2px;
     max-width: 450px;
     padding: 3rem  2rem;
     box-shadow: 0 .125rem .5rem rgb(129, 129, 129);
@@ -274,5 +271,9 @@ nav a:hover {
         justify-content: flex-start;
         flex-direction: row;
       }
+
+    .fontpack{
+
+    }
 
 }
