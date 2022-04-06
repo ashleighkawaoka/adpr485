@@ -109,8 +109,13 @@ margin: 0 auto;
 }
     
 .fontboxes {
+    max-width: 400px;
+    padding: 0.5rem  0.5em;
+}
+
+.smfontboxes{
     max-width: 300px;
-    padding: 3rem  2rem;
+    padding: 0.5rem 1rem;
 }
 
 .btn {
@@ -223,10 +228,9 @@ nav a:hover {
 
   .card {
     text-align: left;
-    grid-column: span 4; 
     vertical-align: top;
-    margin: 2px;
-    max-width: 100%;
+    margin: 1px;
+    max-width: 450px;
     padding: 3rem  2rem;
     box-shadow: 0 .125rem .5rem rgb(129, 129, 129);
 }
@@ -255,7 +259,7 @@ nav a:hover {
     .col-span-3{
         grid-column: span 3; 
         vertical-align: top;
-        margin: 2px;
+        margin: 4px;
         max-width: 100%;
         padding: 3rem  2rem;
     } 
