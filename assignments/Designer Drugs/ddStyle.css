@@ -50,20 +50,16 @@ p {
     grid-column: span 3;
     margin-top: 15px;
     margin-right: 10px;
-}
-
-img {
     width: 100%;
     height: 100%;
 }
 
  /****** Navigation - Home Button ******/
- .logo img{
+ .logo{
     width: 100px;
     height: 100px;
     justify-content: left;
-    margin-top: 15px;
-    margin-right: 10px;
+    grid-column: span 12;
 }
 
 /****** Navigation ******/
@@ -106,16 +102,12 @@ li {
     background-color: #170ac8;
 }
 
-.drugimg{
-    border: 1px solid #000000;
-    padding: 5rem 5rem;
-}
-
 .drugcard {
     text-align: center;
     margin: 1rem;
     padding-bottom: 1rem;
     display: flex;
+    border:rgb(0, 0, 0) solid .5px;
 }
 
 .card-title {
