@@ -52,13 +52,19 @@ a:hover {
 }
 
 /******header******/
-.header-image{
+.image {
     margin-top: 20px;
     max-width: 1200px;
     margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 20px;
+}
+
+.hero-image {
+    margin: 30px auto;
+    display: grid;
+    grid-column-start: 1 / span 6;
 }
 
 body{
