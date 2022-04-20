@@ -60,8 +60,6 @@ font-size: 20px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-column: span 4;
-    -ms-grid-column-align: start center;
     grid-gap: 25px;
 }
 
