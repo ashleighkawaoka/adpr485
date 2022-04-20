@@ -59,7 +59,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    max-width: 25%;
+    max-width: 100%;
 }
 .hero {
     border-radius: 0px;
