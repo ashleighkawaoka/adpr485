@@ -27,6 +27,13 @@ body{
     background-position: center;
 }
 
+.category-item-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 @media (max-width: 100px){
     .category-item {
         min-width: 50%;
