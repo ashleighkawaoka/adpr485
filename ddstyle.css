@@ -68,7 +68,7 @@ a:hover {
 }
 
 .heroimage {
-    background-size: cover;
+    background-size: 1200px;
     background-position: left;
     border: 1px solid black;
 }
