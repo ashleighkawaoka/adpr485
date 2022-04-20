@@ -56,7 +56,6 @@ font-size: 20px;
 /******topsellers******/
 .top-sellers {
     margin-top: 20px;
-    border: 1px solid black;
     max-width: 1200 px;
     margin: 0 auto;
     display: grid;
