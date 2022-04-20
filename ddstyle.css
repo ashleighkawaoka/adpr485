@@ -54,12 +54,14 @@ a:hover {
 /******header******/
 .image {
     width: 50%;
+    text-align: center;
 }
 
 .hero-image {
     height: 200px;
     background-size: cover;
     background-position: center;
+    display: flex;
 }
 
 body{
