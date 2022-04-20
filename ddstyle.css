@@ -55,7 +55,7 @@ a:hover {
 
 .hero-section {
     margin-top: 20px;
-    max-width: 200px;
+    max-width: 1200px;
     margin: 30px auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -68,7 +68,7 @@ a:hover {
     box-sizing: border-box;
 }
 .heroimage {
-    height: 200px;
+    max-width: fit-content;
     background-size: cover;
     background-position: left;
     border: 1px solid black;
