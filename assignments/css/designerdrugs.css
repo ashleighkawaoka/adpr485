@@ -1,0 +1,16 @@
+@import url(https://use.typekit.net/ysf1kxa.css);
+
+body{
+    background-color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif; 
+    font-weight: 500;
+    font-style: normal;
+}
+
+.categories{
+    max-width: 1200px;
+    margin: 40px auto;
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+}
