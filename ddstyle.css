@@ -23,3 +23,9 @@ body{
     box-sizing: border-box;
     height: 300px;
 }
+
+@media (max-width: 100px){
+    .category-item {
+        min-width: 50%;
+    }
+}
