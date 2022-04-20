@@ -34,10 +34,8 @@ body{
 }
 
 .category-item-inner > div{
-padding: 5px 10px;
 background: white;
 color: black;
-border-radius: 5px;
 font-size: 10px;
 }
 
