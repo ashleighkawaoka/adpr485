@@ -84,13 +84,13 @@ font-size: 20px;
     overflow: hidden;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 .item-image {
     height: 200px;
     background-size: cover;
     background-position: center;
+    border: 1px solid black;
 }
 
 button{
