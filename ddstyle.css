@@ -30,7 +30,7 @@ nav a:link, nav a:visited {
 nav a:hover {
     background-color: rgb(255, 255, 255);
     text-decoration: underline;
-    color: rgb(0, 0, 0);
+    color: rgb(14, 20, 184);
 }
 
 a {
@@ -40,17 +40,14 @@ a {
     align-content: left;
     background-color: white;
     margin: 0;
-    padding: 2rem 0;
     display: flex;
     justify-content: left;
-    top: 0;
-    width: 100%; 
 }
 
 a:hover {
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    color: rgb(14, 20, 184);
 }
 
 body{
