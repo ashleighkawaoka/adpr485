@@ -11,7 +11,6 @@ Header {
 
 h1 {
 font-size: 2rem;
-font-family: Helvetica;
 }
 
 h2 {
@@ -23,13 +22,14 @@ h3 {
 font-size: 1.25rem;
 color: #000000;
 }
-img {
-    max-width: 100%;
-}
 
 p {
     color:  black;
     text-align: left;
+}
+
+img {
+    max-width: 100%;
 }
 
 /****** Layout ******/
@@ -101,6 +101,13 @@ li {
     padding-bottom: 2rem;
 }
 
+.drugcard:hover {
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 1rem;
+    padding-bottom: 2rem;
+}
+
 .img-card{
     border:rgb(0, 0, 0) solid .5px;
 }
@@ -126,13 +133,15 @@ li {
     height: 50px;
 }
 
+
+
 /****** Desktop Layout ********/
 @media screen and (min-width: 40rem) {
  .logo  {
-        grid-column: 1  /  span 6;
+        grid-column: 1  /  span 2;
 }
 .menu  {
-    grid-column: 7  /  span 6;
+    grid-column: 7  /  span 7;
 }
 
 .title {
