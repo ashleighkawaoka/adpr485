@@ -56,16 +56,16 @@ a:hover {
     align-content: center;
     display: flex;
     margin-top: 20px;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 30px auto;
-    display: flex;
 }
 
 .hero-image {
     background-size: cover;
     background-position: center;
-    max-width: 800px;
     display: flex;
+    background-size: cover;
+    background-position: center;
 }
 
 body{
