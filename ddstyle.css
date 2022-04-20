@@ -52,6 +52,9 @@ a:hover {
 }
 
 /******header******/
+.title {
+    grid-column: 1 / span 12;
+}
 
 .hero-section {
     height: max-content;
