@@ -34,7 +34,7 @@ nav a:hover {
 }
 
 a {
-    align-content: center;
+    align-content: left;
     background-color: white;
     color: black;
     margin: 0;
@@ -49,14 +49,6 @@ a:hover {
     background-color: rgb(255, 255, 255);
     text-decoration: underline;
     color: rgb(0, 0, 0);
-}
-
-a:link, a:visited {
-    color: black;
-    text-decoration: none;
-    font-size: 10px;
-    padding: 1rem;
-    display: block;
 }
 
 body{
