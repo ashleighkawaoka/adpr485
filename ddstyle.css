@@ -55,7 +55,10 @@ a:hover {
 .image {
     align-content: center;
     display: flex;
-    max-width: 50%;
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
 }
 
 .hero-image {
