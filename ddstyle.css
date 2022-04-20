@@ -56,7 +56,6 @@ font-size: 20px;
 /******topsellers******/
 .top-sellers {
     margin-top: 20px;
-    border: 1px solid black;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -92,4 +91,16 @@ font-size: 20px;
     height: 200px;
     background-size: cover;
     background-position: center;
+}
+
+button{
+    outline: none;
+    background: red;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
 }
