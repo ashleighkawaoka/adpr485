@@ -52,14 +52,6 @@ a:hover {
 }
 
 /******header******/
-.hero-section {
-    margin: 10px auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
 .hero {
     text-align: center;
 }
@@ -68,8 +60,6 @@ a:hover {
     width: 100%;
 }
     
-
-
 .heroimage {
     background-size: cover;
     background-position: left;
