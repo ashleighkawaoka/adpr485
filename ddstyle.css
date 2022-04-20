@@ -61,10 +61,8 @@ a:hover {
 }
 
 .hero {
-    border-radius: 0px;
-    overflow: hidden;
     text-align: center;
-    box-sizing: border-box;
+    overscroll-behavior-x: auto;
 }
 
 .heroimage {
