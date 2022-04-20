@@ -54,7 +54,9 @@ a:hover {
 /******header******/
 .image {
     align-content: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
 .hero-image {
