@@ -16,9 +16,10 @@ body{
     flex-wrap: wrap;
 }
 
-.category-items {
+.category-item {
     flex-grow: 1;
     min-width: 33%;
     border: 1px solid black;
     box-sizing: border-box;
+    height: 300px;
 }
