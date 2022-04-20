@@ -59,19 +59,19 @@ font-size: 20px;
     max-width: 1200 px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 40px;
 }
 
 @media (max-width: 1000px) {
     .top-sellers {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
     @media (max-width: 800px) {
         .top-sellers {
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
         }
 }
 
@@ -80,7 +80,16 @@ font-size: 20px;
 }
 
 .item {
-    border: 1px solid black;
-    background: #666;
-    height: 300px
+    border-radius: 20px;
+    border: 5px solid black;
+    overflow: hidde;
+    text-align: center;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+.item-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
