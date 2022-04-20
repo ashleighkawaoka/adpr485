@@ -60,6 +60,7 @@ body{
 
 .item-category {
     text-align: left;
+    max-width: 1200px;
 }
 
 /******drugs drugs drugs******/
