@@ -68,6 +68,7 @@ a:hover {
     background-size: cover;
     background-position: left;
     border: 1px solid black;
+    width: 100%;
 }
 
 body{
