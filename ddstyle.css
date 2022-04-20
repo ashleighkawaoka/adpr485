@@ -59,7 +59,8 @@ font-size: 20px;
 
 
 .item-category {
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .button{
