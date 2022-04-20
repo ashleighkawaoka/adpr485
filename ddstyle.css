@@ -62,9 +62,9 @@ a:hover {
 }
 
 .hero-image {
-    height: 200px;
     background-size: cover;
     background-position: center;
+    grid-column-start: span 3;
 }
 
 body{
