@@ -54,18 +54,17 @@ a:hover {
 /******header******/
 
 .hero-section {
-    max-width: 1200px;
+    max-width: fit-content;
     margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    align-content: center;
 }
 
 .hero {
     border-radius: 0px;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
     box-sizing: border-box;
 }
 
