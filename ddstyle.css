@@ -42,12 +42,16 @@ a {
     margin: 0;
     display: flex;
     justify-content: left;
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
 a:hover {
     background-color: rgb(255, 255, 255);
-    text-decoration: underline;
+    border: 1px solid black;
+    border-radius: 50%;
     color: rgb(14, 20, 184);
+
 }
 
 body{
