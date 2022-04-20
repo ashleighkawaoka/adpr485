@@ -53,15 +53,15 @@ a:hover {
 
 /******header******/
 .image {
-    width: 50%;
-    text-align: center;
+    align-content: center;
+    display: flex;
+    max-width: 50%;
 }
 
 .hero-image {
     height: 200px;
     background-size: cover;
     background-position: center;
-    display: flex;
 }
 
 body{
