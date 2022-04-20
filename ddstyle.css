@@ -75,10 +75,11 @@ font-size: 20px;
 }
 
 .top-sellers {
-    grid-column: 2  /  span 4;
+    grid-column: span 8;
 }
 
 .item {
+    grid-column: span 1;
     border: 2px solid black;
     overflow: hidden;
     text-align: center;
