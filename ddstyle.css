@@ -30,7 +30,7 @@ nav a:link, nav a:visited {
 nav a:hover {
     background-color: rgb(255, 255, 255);
     text-decoration: underline;
-    color: rgb(22, 198, 57);
+    color: rgb(22, 54, 198);
 }
 
 a {
@@ -47,7 +47,7 @@ a {
 a:hover {
     background-color: rgb(255, 255, 255);
     text-decoration: underline;
-    color: rgb(22, 198, 57);
+    color: rgb(22, 54, 198);
 
 }
 
@@ -57,8 +57,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    max-width: 400px;
-    max-height: 40px;
+    max-width: 100%;
 }
 
 .hero {
