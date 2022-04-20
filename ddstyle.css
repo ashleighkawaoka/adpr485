@@ -63,12 +63,10 @@ font-size: 20px;
 }
 
 .button{ 
-    outline: none;
      border: 1px solid black;
      background: rgb(255, 255, 255);
      font-family: "neue-haas-grotesk-display", sans-serif;
      color: rgb(0, 0, 0);
-     padding: 5px 10px;
      font-size: 10px;
  }
 
