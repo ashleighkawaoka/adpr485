@@ -51,6 +51,16 @@ a:hover {
 
 }
 
+/******header******/
+.header-image{
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
 body{
     background-color: white;
     font-family: "neue-haas-grotesk-display", sans-serif; 
