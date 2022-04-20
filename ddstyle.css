@@ -59,8 +59,7 @@ font-size: 20px;
 
 
 .item-category {
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .button{
@@ -71,7 +70,7 @@ font-size: 20px;
      color: rgb(0, 0, 0);
      padding: 10px 15px;
      font-size: 15px;
-     margin: 20px auto;
+     margin: 20px auto
  }
 
 /******drugs drugs drugs******/
