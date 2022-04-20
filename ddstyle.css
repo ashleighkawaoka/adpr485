@@ -64,13 +64,14 @@ font-size: 20px;
 
 .button{
     text-align: center;
+    outline: none;
      border: 1px solid black;
      background: rgb(255, 255, 255);
      font-family: "neue-haas-grotesk-display", sans-serif;
      color: rgb(0, 0, 0);
      padding: 10px 15px;
      font-size: 15px;
-     margin: 20px auto
+     margin: 20px auto;
  }
 
 /******drugs drugs drugs******/
