@@ -64,7 +64,7 @@ a:hover {
 .hero-image {
     background-size: cover;
     background-position: center;
-    grid-column-start: span 3;
+    max-width: 500px;
 }
 
 body{
