@@ -59,7 +59,8 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: min-content;
+    
 }
 .hero {
     border-radius: 0px;
@@ -68,7 +69,6 @@ a:hover {
     box-sizing: border-box;
 }
 .heroimage {
-    max-width: 25%;
     background-size: cover;
     background-position: left;
     border: 1px solid black;
