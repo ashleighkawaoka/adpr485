@@ -54,7 +54,8 @@ a:hover {
 /******header******/
 .image {
     position: relative;
-    width: 100%;
+    width: 50%;
+    justify-content: center;
 }
 
 .hero-image {
