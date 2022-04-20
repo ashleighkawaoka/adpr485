@@ -54,7 +54,7 @@ a:hover {
 /******header******/
 
 .hero-section {
-    max-height: fit-content;
+    height: max-content;
     margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr;
