@@ -70,12 +70,12 @@ font-size: 20px;
 }
 
 /******topsellers******/
-.top-sellers {
-    grid-column: 2  /  span 4;
-}
-
 .top-sellers-title {
     text-align: center;
+}
+
+.top-sellers {
+    grid-column: 2  /  span 4;
 }
 
 .item {
@@ -86,8 +86,25 @@ font-size: 20px;
     height: 200px;
 }
 
+.title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .title > div{
+    padding: 5px 10px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    }
+
 .item-image {
     height: 200px;
     background-size: cover;
     background-position: center;
 }
+
+
