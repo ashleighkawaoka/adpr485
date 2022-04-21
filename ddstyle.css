@@ -18,6 +18,12 @@ nav ul {
     flex-flow: row wrap;
 }
 
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline;
+    color: rgb(22, 54, 198);
+}
+
 a {
     align-content: left;
     background-color: white;
