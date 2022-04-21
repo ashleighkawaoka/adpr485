@@ -50,6 +50,11 @@ a:hover {
     color: black;
     padding: 10px 15px;
     margin: 10px 0;
+    text-decoration: none;
+    font-size: 12px;
+    align-content: left;    
+    display: flex;
+    justify-content: left;
 }
 
 /******header******/
