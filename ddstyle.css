@@ -55,8 +55,8 @@ body{
 .item-category {
     text-align: left;
     margin-top: 20px;
+    margin-bottom: 5px;
     max-width: 80%;
-    margin: 30px 10px auto;
     display: flex;
 }
 
