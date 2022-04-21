@@ -67,7 +67,7 @@ body{
     margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 100px;
+    grid-gap: 40px;
 }
 
 @media (max-width: 1000px) {
