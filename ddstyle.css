@@ -18,16 +18,12 @@ nav ul {
     flex-flow: row wrap;
 }
 
-nav a:hover {
-    background-color: rgb(255, 255, 255);
-    text-decoration: underline;
-    color: rgb(22, 54, 198);
-}
-
-a {
+a:link, a:visited{
     align-content: left;
     background-color: white;
     color: black;
+    padding: 10px 15px;
+    margin: 10px 0;
     font-size: 12px;
     display: flex;
     justify-content: left;
@@ -38,17 +34,6 @@ a:hover {
     background-color: rgb(255, 255, 255);
     text-decoration: underline;
     color: rgb(22, 54, 198);
-}
-
-a:link, a:visited{
-    align-content: left;
-    background-color: white;
-    color: black;
-    font-size: 12px;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: left;
-    text-decoration: none;
 }
 
 /******header******/
