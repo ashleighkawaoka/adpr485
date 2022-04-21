@@ -4,7 +4,7 @@ nav {
     align-content: center;
     background-color: white;
     color: black;
-    font-size: 12px;
+    font-size: 15px;
     padding: 10px 15px;
     margin: 10px 0;
     display: flex;
@@ -24,7 +24,7 @@ a:link, a:visited{
     color: black;
     padding: 10px 15px;
     margin: 10px 0;
-    font-size: 12px;
+    font-size: 15px;
     display: flex;
     justify-content: left;
     text-decoration: none;
@@ -101,10 +101,10 @@ body{
 }
 
 .item > .description {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .item > .price {
-    font-size: 10px;
+    font-size: 15px;
     font-style: italic;
 }
