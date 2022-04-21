@@ -68,6 +68,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    padding: 10px 0px;
 }
 
 @media (max-width: 1000px) {
@@ -107,8 +108,4 @@ body{
 .item > .price {
     font-size: 15px;
     font-style: italic;
-}
-
-.item:hover {
-    background-color: black
 }
