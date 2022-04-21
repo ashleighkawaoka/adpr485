@@ -42,7 +42,7 @@ a:hover {
 }
 
 .hero img{
-    width: 100%;
+    width: 80%;
 }
 
 body{
@@ -55,7 +55,7 @@ body{
 .item-category {
     text-align: left;
     margin-top: 20px;
-    max-width: 100%;
+    max-width: 80%;
     margin: 30px auto;
     display: flex;
 }
@@ -63,7 +63,7 @@ body{
 /******drugs drugs drugs******/
 .item-section {
     margin-top: 20px;
-    max-width: 100%;
+    max-width: 80%;
     margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
