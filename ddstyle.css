@@ -63,7 +63,7 @@ body{
 /******drugs drugs drugs******/
 .item-section {
     margin-top: 20px;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
