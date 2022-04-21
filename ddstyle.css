@@ -67,7 +67,7 @@ body{
     margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 100px;
 }
 
 @media (max-width: 1000px) {
@@ -90,7 +90,7 @@ body{
 }
 
 .item-image {
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     border: 1px solid black;
