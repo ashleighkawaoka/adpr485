@@ -91,6 +91,7 @@ body{
     background-size: cover;
     background-position: center;
     border: solid 1px black;
+    box-sizing: content-box;
 }
 
 .item > .title {
