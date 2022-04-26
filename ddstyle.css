@@ -132,7 +132,6 @@ body{
     height: 300px;
     display: flex;
     background-size: cover;
-    background-position: center;
     justify-content: left;
     text-decoration: none;
 }
