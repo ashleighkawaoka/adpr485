@@ -88,7 +88,7 @@ body{
 
 .item-image {
     height: 300px;
-    display:flex;
+    background-image: cover;
     border: solid 1px rgb(0, 0, 0);
     overflow: hidden;
 }
