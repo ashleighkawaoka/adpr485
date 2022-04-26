@@ -21,26 +21,16 @@ nav ul {
 a:link, a:visited{
     align-content: left;
     justify-content: left;
-}
-
-.view-button{
-    background-color: white;
-    color: black;
-    padding: 10px 15px;
-    margin: 10px 0;
-    font-size: 15px;
     display: flex;
     text-decoration: none;
+    background-color: white;
+    color: black;
 }
 
-.view-button:hover{
+a:hover{
     background-color: rgb(255, 255, 255);
     text-decoration: underline;
     color: rgb(22, 54, 198);
-}
-
-.image-button{
-    margin: 0 auto;
 }
 
 /******header******/
@@ -95,7 +85,6 @@ body{
     overflow: hidden;
     text-align: left;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 .item-image {
