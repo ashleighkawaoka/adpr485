@@ -92,6 +92,7 @@ body{
     background-position: center;
     border: solid 1px rgb(26, 23, 214);
     overflow: hidden;
+    display: flex;
 }
 
 .item > .title {
