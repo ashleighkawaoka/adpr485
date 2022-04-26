@@ -25,8 +25,6 @@ a:link, a:visited{
     text-decoration: none;
     background-color: white;
     color: black;
-    background-size: cover;
-    background-position: center;
 }
 
 a:hover{
@@ -94,7 +92,6 @@ body{
     background-position: center;
     border: solid 1px rgb(212, 28, 28);
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 .item > .title {
