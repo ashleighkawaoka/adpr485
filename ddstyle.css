@@ -127,3 +127,17 @@ body{
     text-decoration: underline;
     color: rgb(22, 54, 198);
 }
+
+.image-button{
+    height: 300px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-color: none;
+    justify-content: left;
+    text-decoration: none;
+}
+
+.image-button:hover{
+    background-color: black;
+}
