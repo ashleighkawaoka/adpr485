@@ -130,4 +130,5 @@ body{
 
 .button:hover{
 color: black;
+display: flex;
 }
