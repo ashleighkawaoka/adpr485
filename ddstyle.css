@@ -97,11 +97,6 @@ body{
     border: 1px solid black;
 }
 
-.item-image:hover {
-    height: 300px;
-    background-color: black;
-}
-
 .item > .title {
     font-size: 20px;
 }
