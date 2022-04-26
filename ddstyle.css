@@ -133,7 +133,6 @@ body{
     display: flex;
     background-size: cover;
     background-position: center;
-    background-color: none;
     justify-content: left;
     text-decoration: none;
 }
