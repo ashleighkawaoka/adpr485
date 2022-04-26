@@ -88,11 +88,9 @@ body{
 
 .item-image {
     height: 300px;
-    background-size: cover;
-    background-position: center;
-    border: solid 1px rgb(26, 23, 214);
+    border: solid 1px rgb(214, 26, 23);
     overflow: hidden;
-    display: flex;
+    box-sizing: border-box;
 }
 
 .item > .title {
