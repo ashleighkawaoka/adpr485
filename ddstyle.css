@@ -88,9 +88,9 @@ body{
 
 .item-image {
     height: 300px;
-    background-image: cover;
     border: solid 1px rgb(0, 0, 0);
     overflow: hidden;
+    width: auto;
 }
 
 .item > .title {
