@@ -3,16 +3,16 @@
 body{
     margin: 0;
     padding: 3rem;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: "neue-haas-grotesk-display", sans-serif; 
     line-height: 1.3;
 }
 
 nav {
     align-content: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 15px;
     padding: 10px 15px;
     margin: 10px 0;
@@ -33,7 +33,7 @@ a, a:visited {
 
 .card {
     display: grid;
-    background: white;
+    background: black;
     border-radius: 10px;
-    color: black;
+    color: white;
 }
