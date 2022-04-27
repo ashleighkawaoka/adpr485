@@ -136,15 +136,16 @@ span{
 }
 
 
-button{
-
-}
-
 .view-button{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     padding: 1.5rem;
     padding-right: 1.5rem;
     justify-self: end;
+}
+
+.view-button:hover{
+    color:rgb(13, 13, 205);
+    text-decoration: underline;
 }
 
