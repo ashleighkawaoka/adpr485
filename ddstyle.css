@@ -136,7 +136,7 @@ span{
 }
 
 
-button{
+.view-button{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     padding: 1.5rem;
@@ -144,7 +144,7 @@ button{
     justify-self: end;
 }
 
-button:hover{
+.view-button:hover{
     color:rgb(13, 13, 205);
     text-decoration: underline;
 }
