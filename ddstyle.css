@@ -107,6 +107,6 @@ a, a:visited {
     grid-row: 3 / 4;
     padding: 1.5rem;
     padding-right: 1.5rem;
-    justify-content: right;
+    justify-self: end;
 }
 
