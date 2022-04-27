@@ -88,11 +88,14 @@ body{
 
 .item-image {
     height: 300px;
-    border: solid 1px rgb(208, 23, 214);
+    background-size: cover;
+    background-position: center;
+    border: solid 1px rgb(26, 23, 214);
+    overflow: hidden;
     display: flex;
 }
 
-.image-overlay{
+.item-image > .overlay{
     display: flex;
     background: black;
     color: white;
@@ -101,7 +104,7 @@ body{
     opacity: 0;
 }
 
-.image-overlay:hover{
+.item-image > .overlay:hover{
     opacity: 1;
 }
 
