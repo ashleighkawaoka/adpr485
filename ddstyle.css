@@ -90,7 +90,7 @@ body{
     height: 300px;
     background-size: cover;
     background-position: center;
-    border: solid 1px rgb(114, 38, 124);
+    border: solid 1px rgb(0, 0, 0);
     overflow: hidden;
     display: flex;
 }
@@ -106,36 +106,4 @@ body{
 .item > .price {
     font-size: 15px;
     font-style: italic;
-}
-
-.image-box{
-    height: 300px;
-    border: solid 1px rgb(11, 13, 59);
-}
-
-.image{
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    display: block;
-}
-
-.image-overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-}
-
-.image-overlay:hover{
-    opacity: 1;
-}
-
-.image-title{
-    font-size: 10px;
 }
