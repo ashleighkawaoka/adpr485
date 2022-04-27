@@ -75,6 +75,20 @@ a, a:visited {
     background: no-repeat center center/cover;
 }
 
+.image-overlay{
+    display: block;
+    background: black;
+    opacity: 0;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    position: relative;
+    color: white;
+}
+
+.image-overlay:hover{
+    opacity: 1;
+}
+
 .card-content{
     grid-column: 1 / 3;
     grid-row: 2 / 3;
