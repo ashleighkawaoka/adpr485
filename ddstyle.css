@@ -27,6 +27,14 @@ nav ul {
     flex-flow: row wrap;
 }
 
+/******header******/
+.hero {
+    text-align: center;
+}
+.hero img{
+    width: 80%;
+}
+
 a, a:visited {
     text-decoration: none;
 }
