@@ -77,7 +77,6 @@ a, a:visited {
     background: rgb(255, 255, 255);
     border-radius: 0px;
     color: rgb(0, 0, 0);
-    border: solid 1px black;
 }
 
 
@@ -85,6 +84,7 @@ a, a:visited {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     background: no-repeat center center/cover;
+    border: solid 1px black;
 }
 
 .image-overlay{
@@ -111,7 +111,7 @@ span{
 .card-content{
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    padding: 1.5rem;
+    justify-items: left;
 }
 
 .card-title{
@@ -143,6 +143,7 @@ span{
     padding: 1.5rem;
     padding-right: 1.5rem;
     justify-self: end;
+    text-decoration: underline black; 
 }
 
 .view-button:hover{
