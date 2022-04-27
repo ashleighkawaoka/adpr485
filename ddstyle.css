@@ -39,8 +39,14 @@ a, a:visited {
     text-decoration: none;
 }
 
-/******grid-layout*******/
+.section-header{
+    display: grid;
+    max-width: 90%;
+    margin: 30px auto;
+    justify-items: left;
+}
 
+/******grid-layout*******/
 .cards{
     display: grid;
     gap: 1rem;
