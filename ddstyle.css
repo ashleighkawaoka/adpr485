@@ -9,6 +9,17 @@ body{
     line-height: 1.3;
 }
 
+/******grid*******/
+
+
+/******header******/
+.hero {
+    text-align: center;
+}
+.hero img{
+    width: 80%;
+}
+
 nav {
     align-content: center;
     background-color: black;
@@ -27,21 +38,33 @@ nav ul {
     flex-flow: row wrap;
 }
 
-/******header******/
-.hero {
-    text-align: center;
-}
-.hero img{
-    width: 80%;
-}
-
 a, a:visited {
     text-decoration: none;
 }
 
 .card {
     display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 300px 1fr auto;
     background: black;
     border-radius: 10px;
     color: white;
+}
+
+.card > .card-image{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.card > .card-content{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+.card > .card-description{
+    
+}
+
+.card > .card-price{
+    
 }
