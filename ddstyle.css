@@ -90,7 +90,7 @@ body{
     height: 300px;
     background-size: cover;
     background-position: center;
-    border: solid 1px rgb(38, 107, 124);
+    border: solid 1px rgb(114, 38, 124);
     overflow: hidden;
     display: flex;
 }
@@ -108,6 +108,7 @@ body{
     height: 100%;
     background: black;
     color: white;
+    display: flex;
     opacity: 0;
 }
 
