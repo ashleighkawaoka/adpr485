@@ -2,15 +2,12 @@
 
 body{
     margin: 0;
-    padding: 3rem;
+    padding: 0;
     background-color: white;
     color: black;
     font-family: "neue-haas-grotesk-display", sans-serif; 
     line-height: 1.3;
 }
-
-/******grid*******/
-
 
 /******header******/
 .hero {
@@ -42,6 +39,13 @@ a, a:visited {
     text-decoration: none;
 }
 
+/******grid-layout*******/
+
+.cards{
+    display: grid;
+    gap: 1rem;
+}
+
 .card {
     display: grid;
     grid-template-columns: repeat (2, 1fr);
@@ -49,6 +53,13 @@ a, a:visited {
     background: black;
     border-radius: 10px;
     color: white;
+}
+
+@media (min-width: 56rem){
+    .card{
+        grid-template-columns: 300px repeat (2, 1fr);
+        grid-template-rows: 1fr auto;
+    }
 }
 
 .card > .card-image{
@@ -59,12 +70,27 @@ a, a:visited {
     background-size: cover;
 }
 
+@media (min-width: 56rem){
+    .card-image{
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+}
+
 .card > .card-content{
     grid-column: 1 / 3;
     grid-row: 2 / 3;
+    padding: 1.5rem;
 }
 
-.card > .title{
+@media (min-width: 56rem){
+    .card-content{
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+}
+
+.card > .card-title{
     font-size: 20px;
     margin-bottom: .75rem;
     line-height: 1;
@@ -81,4 +107,14 @@ a, a:visited {
     grid-row: 3 / 4;
     font-size: 15px;
     line-height: 1;
+    padding: 1.5rem;
+    padding-left: 1.5rem;
 }
+
+@media (min-width: 56rem){
+    .card-price{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+}
+
