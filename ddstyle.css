@@ -46,6 +46,17 @@ a, a:visited {
     gap: 1rem;
 }
 
+@media (max-width: 100%) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+    @media (max-width: 800px) {
+        .cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+}
+
 .card {
     display: grid;
     grid-template-columns: repeat (2, 1fr);
@@ -53,18 +64,6 @@ a, a:visited {
     background: black;
     border-radius: 10px;
     color: white;
-}
-
-@media (max-width: 1000px) {
-    .cards {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-    @media (max-width: 800px) {
-        .cards {
-            grid-template-columns: repeat(2, 1fr);
-        }
 }
 
 
