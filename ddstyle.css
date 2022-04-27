@@ -152,6 +152,7 @@ span{
     grid-row: 3 / 4;
     padding: 1.5rem;
     padding-right: 1.5rem;
+    justify-items: end;
     text-decoration: underline black; 
 }
 
