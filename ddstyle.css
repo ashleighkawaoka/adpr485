@@ -61,7 +61,7 @@ a, a:visited {
 .card {
     display: grid;
     grid-template-columns: repeat (2, 1fr);
-    grid-template-rows: 300px 1fr auto;
+    grid-template-rows: 300px 1fr 1fr;
     background: rgb(255, 255, 255);
     border-radius: 0px;
     color: rgb(0, 0, 0);
@@ -73,6 +73,7 @@ a, a:visited {
     grid-row: 1 / 2;
     background: no-repeat center center/cover;
     border: solid 1px black;
+    padding: 1.5rem;
 }
 
 .card-content{
