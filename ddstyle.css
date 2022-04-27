@@ -68,7 +68,8 @@ a, a:visited {
 }
 
 .card > .card-title{
-    font-size: 20px;
+    font-size: 25px;
+    font-style: bold;
     margin-bottom: .75rem;
     line-height: 1;
 }
