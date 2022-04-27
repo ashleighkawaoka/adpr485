@@ -89,6 +89,7 @@ body{
 .image{
     position: relative;
     width: 300px;
+    display: flex;
 }
 
 .image-item2{
