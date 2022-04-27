@@ -88,18 +88,16 @@ body{
 
 .item-image {
     height: 300px;
-    border: solid 1px rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    border: solid 1px rgb(38, 107, 124);
     overflow: hidden;
     display: flex;
 }
 
-.image{
-    background-size: cover;
-    background-position: center;
-}
-
 .image-overlay{
     display: flex;
+    position: absolute;
     background: black;
     color: white;
     align-items: center;
