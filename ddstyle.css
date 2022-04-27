@@ -44,6 +44,8 @@ a, a:visited {
     max-width: 90%;
     margin: 30px auto;
     justify-items: left;
+    font-size: 25px;
+    font-style: bold;
 }
 
 /******grid-layout*******/
@@ -61,7 +63,7 @@ a, a:visited {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         .cards {
             grid-template-columns: repeat(2, 1fr);
         }
@@ -131,6 +133,11 @@ span{
     line-height: 1;
     padding: 1.5rem;
     padding-left: 1.5rem;
+}
+
+
+button{
+
 }
 
 .view-button{
