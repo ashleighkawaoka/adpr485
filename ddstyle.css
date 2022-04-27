@@ -46,6 +46,7 @@ a, a:visited {
     gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
     max-width: 90%;
+    margin: 30px auto;
     justify-items: center;
 }
 
