@@ -33,6 +33,12 @@ nav ul {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
+    padding: 1.5rem;
+}
+
+nav ul:hover{
+    color:rgb(13, 13, 205);
+    text-decoration: underline;
 }
 
 a, a:visited {
@@ -46,7 +52,6 @@ a, a:visited {
     margin: 30px auto;
     justify-items: left;
     font-size: 25px;
-    font-style: bold;
 }
 
 /******grid-layout*******/
@@ -142,7 +147,7 @@ span{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     padding: 1.5rem;
-    padding-right: 0rem;
+    padding-right: 1.5rem;
     text-decoration: underline black; 
 }
 
