@@ -109,7 +109,6 @@ body{
 .image{
     position: relative;
     width: 300px;
-    display:flex;
 }
 
 .image-item2{
@@ -125,4 +124,14 @@ body{
     height: 100%;
     background: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image-overlay:hover{
+    opacity: 1;
 }
