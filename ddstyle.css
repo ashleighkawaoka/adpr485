@@ -86,26 +86,6 @@ body{
     box-sizing: border-box;
 }
 
-.item-image {
-    height: 300px;
-    border: solid 1px rgb(0, 0, 0);
-    overflow: hidden;
-    width: auto;
-}
-
-.item > .title {
-    font-size: 20px;
-}
-
-.item > .description {
-    font-size: 15px;
-}
-
-.item > .price {
-    font-size: 15px;
-    font-style: italic;
-}
-
 .image{
     position: relative;
     width: 300px;
@@ -134,4 +114,25 @@ body{
 
 .image-overlay:hover{
     opacity: 1;
+}
+
+.image-title {
+    font-size: 15pt;
+}
+
+.image-description {
+    font-size: 10pt;
+}
+
+.item-title {
+    font-size: 20px;
+}
+
+.item-description {
+    font-size: 15px;
+}
+
+.item-price {
+    font-size: 15px;
+    font-style: italic;
 }
