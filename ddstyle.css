@@ -108,20 +108,15 @@ body{
     font-style: italic;
 }
 
-.view-all-button{
-    align-content: left;
-    background-color: white;
-    color: black;
-    padding: 10px 15px;
-    margin: 10px 0;
-    font-size: 15px;
+.image-overlay{
     display: flex;
-    justify-content: left;
-    text-decoration: none;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
 }
 
-.view-all-button:hover{
-    background-color: rgb(255, 255, 255);
-    text-decoration: underline;
-    color: rgb(22, 54, 198);
+.image-overlay:hover{
+    opactiy: 1;
 }
