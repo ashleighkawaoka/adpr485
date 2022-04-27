@@ -19,8 +19,8 @@ body{
 
 nav {
     align-content: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 15px;
     padding: 10px 15px;
     margin: 10px 0;
@@ -37,6 +37,7 @@ nav ul {
 
 a, a:visited {
     text-decoration: none;
+    color: black;
 }
 
 .section-header{
