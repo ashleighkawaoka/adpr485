@@ -1,5 +1,14 @@
 @import url(https://use.typekit.net/ysf1kxa.css);
 
+body{
+    margin: 0;
+    padding: 3rem;
+    background-color: black;
+    color: white;
+    font-family: "neue-haas-grotesk-display", sans-serif; 
+    line-height: 1.3;
+}
+
 nav {
     align-content: center;
     background-color: white;
@@ -18,92 +27,13 @@ nav ul {
     flex-flow: row wrap;
 }
 
-a:link, a:visited{
-    align-content: left;
-    justify-content: left;
-    display: flex;
+a, a:visited {
     text-decoration: none;
-    background-color: white;
-    color: black;
 }
 
-a:hover{
-    background-color: rgb(255, 255, 255);
-    text-decoration: underline;
-    color: rgb(22, 54, 198);
-}
-
-/******header******/
-.hero {
-    text-align: center;
-}
-
-.hero img{
-    width: 80%;
-}
-
-body{
-    background-color: white;
-    font-family: "neue-haas-grotesk-display", sans-serif; 
-    font-weight: 500;
-    font-style: normal;
-}
-
-.item-category {
-    text-align: left;
-    max-width: 80%;
-    display: flex;
-    margin: 30px auto;
-    margin-top: 20;
-}
-
-/******drugs drugs drugs******/
-.item-section {
-    margin-top: 20px;
-    max-width: 80%;
-    margin: 30px auto;
+.card {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    padding: 10px 0px;
-}
-
-@media (max-width: 1000px) {
-    .item-section {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-    @media (max-width: 800px) {
-        .item-section {
-            grid-template-columns: repeat(2, 1fr);
-        }
-}
-
-.item {
-    overflow: hidden;
-    text-align: left;
-    box-sizing: border-box;
-}
-
-.item-image {
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    border: solid 1px rgb(0, 0, 0);
-    overflow: hidden;
-    display: flex;
-}
-
-.item > .title {
-    font-size: 20px;
-}
-
-.item > .description {
-    font-size: 15px;
-}
-
-.item > .price {
-    font-size: 15px;
-    font-style: italic;
+    background: white;
+    border-radius: 10px;
+    color: black;
 }
