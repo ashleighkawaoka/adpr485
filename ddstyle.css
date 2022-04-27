@@ -95,13 +95,19 @@ body{
     display: flex;
 }
 
+.image {
+    display: block;
+    width: 100%;
+}
+
 .image-overlay{
-    display: flex;
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: black;
     color: white;
-    align-items: center;
-    justify-content: center;
     opacity: 0;
 }
 
