@@ -142,8 +142,7 @@ span{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     padding: 1.5rem;
-    padding-right: 1.5rem;
-    justify-self: end;
+    padding-right: 0rem;
     text-decoration: underline black; 
 }
 
