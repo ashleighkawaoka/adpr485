@@ -44,12 +44,7 @@ a, a:visited {
 .cards{
     display: grid;
     gap: 1rem;
-}
-
-@media (max-width: 100%) {
-    .cards {
-        grid-template-columns: repeat(4, 1fr);
-    }
+    grid-template-columns: repeat(4, 1fr);
 }
     @media (max-width: 800px) {
         .cards {
