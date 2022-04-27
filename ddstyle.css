@@ -47,7 +47,7 @@ a, a:visited {
     grid-template-columns: repeat(4, 1fr);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .cards {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -100,5 +100,12 @@ a, a:visited {
     line-height: 1;
     padding: 1.5rem;
     padding-left: 1.5rem;
+}
+
+.view-button{
+    grid-column: 2 / 3;
+    grid-row: 3 /4;
+    justify-self: end;
+    padding-right: 1.5rem;
 }
 
